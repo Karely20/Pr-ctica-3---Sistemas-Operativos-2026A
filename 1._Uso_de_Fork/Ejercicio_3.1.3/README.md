@@ -25,4 +25,3 @@ Creación de un proceso hijo sin espera ( Ejecutar código de la Figura 3)
    *Ejecución del código de la Figura 3 añadiendo `wait(0)`*
    
    <img width="456" height="73" alt="Captura de pantalla 2026-05-08 211119" src="https://github.com/user-attachments/assets/749736f8-9c4c-480c-8640-f14a765bfde1" />
-
