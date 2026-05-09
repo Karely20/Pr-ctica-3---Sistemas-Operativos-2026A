@@ -9,15 +9,15 @@ Creación de un proceso hijo sin espera ( Ejecutar código de la Figura 3)
    
    El PPID del proceso hijo creado es **1670**, por lo tanto ese el PID del proceso padre.
      
-3. **Verifique a qué proceso corresponde el PPID encontrado.**
+2. **Verifique a qué proceso corresponde el PPID encontrado.**
    
    El PPID encontrado (1670) corresponde al proceso padre ya que en la ejecución del padre muestra el mismo valor en su PID.
    
-5. ¿Cómo se denomina al tipo de proceso hijo?
+3. **¿Cómo se denomina al tipo de proceso hijo?**
    
    El proceso hijo no es huérfano en el momento en que imprime su PPID, porque todavía muestra el PID del padre; sin embargo, se vuelve huérfano cuando el padre termina su ejecución.
    
-7. Modifique el código de la Figura 3 para que el proceso hijo no quede huérfano. Demostrar el resultado con el PPID del proceso hijo.
+4. **Modifique el código de la Figura 3 para que el proceso hijo no quede huérfano. Demostrar el resultado con el PPID del proceso hijo.**
 
    A pesar de que en la ejecución no se aprecia claramente como el proceso queda huérfano ya que imprime el PID del padre, para evitar este problema el proceso padre debe esperar al hijo antes de terminar de ejecutarse.
    Esto se cumple añadiendo `wait(0)` en el padre.
