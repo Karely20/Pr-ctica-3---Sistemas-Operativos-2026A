@@ -18,7 +18,7 @@ int main(){
 			break;
 		default:
 			printf("\nSoy el padre, mi PID es %d y el PID de mi hijo es %d", getpid(), pid);
-			wait(0);
+			wait(0); //El padre espera a que el hijo termine de ejecutarse
 	}
 
 	printf("\nFinal de ejecución de %d\n", getpid());
