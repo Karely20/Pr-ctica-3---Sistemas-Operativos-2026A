@@ -1,6 +1,6 @@
 # Práctica 3 - Sistemas Operativos 2026A
 
-**Integrantes:** Karely Bombón, Jhon Tiupul, Fidel Quilumba
+**Integrantes:** Karely Bombón, Jhon Tiupul, Fidel Quilumba, Jhoan Sasnalema
 
 **Profesor:** Ing. Diana Martínez, PhD.
 
